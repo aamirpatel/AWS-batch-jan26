@@ -25,4 +25,10 @@ jobs:
       - name: Run a one-line script
         run: echo Hello, world!
 
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v6.1.0
+        with:
+          # Version Spec of the version to use. Examples: 12.x, 10.15.1, >=10.15.0.
+           node-version: 10
+
       
